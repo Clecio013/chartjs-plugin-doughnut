@@ -1,0 +1,33 @@
+{
+  "name": "@clecio013/chartjs-plugin-doughnut",
+  "version": "1.0.0",
+  "description": "Plugin to chart.js library to create doughnut chart with text in the middle",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clecio013/chartjs-plugin-doughnut.git"
+  },
+  "scripts": {
+    "dev": "tsx watch src/plugin.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "chart.js": "^4.4.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "chart.js": "^4.4.1"
+  },
+  "author": "clecio013",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clecio013/chartjs-plugin-doughnut/issues"
+  },
+  "homepage": "https://github.com/Clecio013/chartjs-plugin-doughnut#readme",
+  "dependencies": {
+    "esbuild": "^0.19.12",
+    "get-tsconfig": "^4.7.2",
+    "resolve-pkg-maps": "^1.0.0"
+  }
+}
